@@ -6,5 +6,38 @@
 .wraper-header{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(0.25turn, #7A6B7B, #32687D, #7A6B7B);
+    background-image: linear-gradient(0.125turn, #7A6B7B, #32687D, #7A6B7B);
+    display: flex;
+    justify-content: center;
+}
+
+.container-header{
+    width: 1170px;
+    min-height: 100vh;
+    padding-top: 90px;
+}
+
+.logo-header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header-btn{
+    height: 58px;
+    width: 58px;
+    border: 3px solid #d3d3d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo-header-btn-strip{
+    height: 3px;
+    width: 27px;
+    background-color: #d3d3d8;
 }
