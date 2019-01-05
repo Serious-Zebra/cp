@@ -81,3 +81,43 @@
     text-align: center;
     letter-spacing: 1px;
 }
+
+.wraper-about{
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-about{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.prpl-man-about{
+    background-image: url(../img/prpl-man.png);
+    height: 583px;
+    width: 433px;
+}
+
+.text-section-about{
+    height: 275px;
+    width: 675px;
+}
+
+.text-section-about .heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #737373;
+    text-align: left;
+}
+
+.text-section-about .prgr{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 255);
+    text-align: left;
+}
