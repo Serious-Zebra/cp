@@ -93,7 +93,10 @@
     width: 1170px;
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .prpl-man-about{
@@ -105,19 +108,36 @@
 .text-section-about{
     height: 275px;
     width: 675px;
+    margin-bottom: 65px;
 }
 
 .text-section-about .heading{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 26px;
     color: #737373;
     text-align: left;
 }
 
 .text-section-about .prgr{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 255);
+    font-weight: lighter;
+    font-size: 22px;
+    color: #a0a0a0;
     text-align: left;
+}
+
+
+.hire-me-button{
+    width: 200px;
+    height: 50px;
+    background-color: #ff2b4a;
+    margin-bottom: 145px;
+}
+
+.hire-me-button p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #ffffff;
 }
