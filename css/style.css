@@ -179,5 +179,44 @@
 .elements-process{
     height: 280px;
     width: 1180px;
-    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.element-process{
+    height: 280px;
+    width: 270px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: left 50% top 45%;
+    padding-top: 170px;
+}
+
+.element-process:nth-child(1){
+    background-color: #10c6fc;
+    background-image: url(../img/Monitor.png)
+}
+
+.element-process:nth-child(2){
+    background-color: #835aeb;
+    background-image: url(../img/Magic-wand.png)
+}
+
+.element-process:nth-child(3){
+    background-color: #002453;
+    background-image: url(../img/params.png)
+}
+
+.element-process:nth-child(4){
+    background-color: #ff2b4a;
+    background-image: url(../img/Plane.png)
 }
