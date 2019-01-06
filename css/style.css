@@ -141,3 +141,43 @@
     font-size: 16px;
     color: #ffffff;
 }
+
+.wraper-process{
+    height: 670px;
+    width: 100vw;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+}
+
+.container-process{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-process{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.description-process{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #6f6f6f;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.elements-process{
+    height: 280px;
+    width: 1180px;
+    border: 1px solid red;
+}
