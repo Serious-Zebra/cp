@@ -220,3 +220,19 @@
     background-color: #ff2b4a;
     background-image: url(../img/Plane.png)
 }
+
+.wraper-edu{
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(0.125turn, #7A6B7B, #32687D, #7A6B7B);
+}
+
+.container-edu{
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
